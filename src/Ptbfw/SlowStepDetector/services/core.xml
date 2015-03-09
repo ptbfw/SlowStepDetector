@@ -6,3 +6,4 @@
         <service id="ptbfw.slowstepdetector" class="Ptbfw\SlowStepDetector\Extension" />
     </services>
 </container>
+
