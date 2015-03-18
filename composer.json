@@ -1,0 +1,25 @@
+{
+    "name": "ptbfw/SlowStepDetector",
+    "type": "extension",
+    "description": "",
+    "keywords": ["extension"],
+    "homepage": "https://github.com/ptbfw/SlowStepDetector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angel Koilov",
+            "email": "angel.koilov@gmail.com",
+            "homepage": "http://angelk.eu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php":                  ">=5.4",
+        "behat/behat":          "3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ptbfw\\SlowStepDetector": "src/"
+        }
+    }
+}
